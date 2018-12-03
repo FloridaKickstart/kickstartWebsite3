@@ -84,6 +84,30 @@ public class Main {
   String c++unit1feedback() {
       return "c++unit1feedback";
   }
+   @RequestMapping("/financelessons")
+  String financelessons() {
+      return "financelessons";
+  }
+   @RequestMapping("/finance1unit1vid")
+  String finance1unit1vid() {
+      return "finance1unit1vid";
+  }
+   @RequestMapping("/finance1unit1nearpod")
+  String finance1unit1nearpod() {
+      return "finance1unit1nearpod";
+  }
+   @RequestMapping("/finance1unit1activity")
+  String finance1unit1activity() {
+      return "finance1unit1activity";
+  }
+   @RequestMapping("/finance1unit1assessment")
+  String finance1unit1assessment() {
+      return "finance1unit1assessment";
+  }
+   @RequestMapping("/finance1unit1activity")
+  String finance1unit1activity() {
+      return "finance1unit1activity";
+  }
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
