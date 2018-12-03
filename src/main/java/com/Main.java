@@ -108,6 +108,31 @@ public class Main {
   String finance1unit1activity() {
       return "finance1unit1activity";
   }
+   @RequestMapping("/mathlessons")
+  String mathlessons() {
+      return "mathlessons";
+  }
+    @RequestMapping("/math1unit1vid")
+  String math1unit1vid() {
+      return "math1unit1vid";
+  }
+    @RequestMapping("/math1unit1nearpod")
+  String math1unit1nearpod() {
+      return "math1unit1nearpod";
+  }
+    @RequestMapping("/math1unit1activity")
+  String math1unit1activity() {
+      return "math1unit1activity";
+  }
+     @RequestMapping("/math1unit1assessment")
+  String  math1unit1assessment() {
+      return "math1unit1assessment";
+  }
+     @RequestMapping("/math1unit1feedback")
+  String  math1unit1feedback() {
+      return "math1unit1feedback";
+  }
+   
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
