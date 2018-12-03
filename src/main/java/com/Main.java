@@ -60,6 +60,7 @@ public class Main {
   String onlinecourses() {
       return "onlinecourses";
   }
+
   @RequestMapping("/onlineresources")
   String onlineresources() {
       return "onlineresources";
@@ -88,6 +89,56 @@ public class Main {
     String onlineresourcesvisualStudiodownload() {
         return "onlineresourcesvisualStudiodownload";
 }
+
+  @RequestMapping("/c++unit1vid")
+  String c++unit1vid() {
+      return "c++unit1vid";
+  }
+  @RequestMapping("/c++lessons")
+  String c++lessons() {
+      return "c++lessons";
+  }
+  @RequestMapping("/c++unit1nearpod")
+  String c++unit1nearpod() {
+      return "c++unit1nearpod";
+  }
+    @RequestMapping("/c++unit1activity")
+  String c++unit1activity() {
+      return "c++unit1activity";
+  }
+   @RequestMapping("/c++unit1assessment")
+  String c++unit1activity() {
+      return "c++unit1assessment";
+  }
+  @RequestMapping("/c++unit1feedback")
+  String c++unit1feedback() {
+      return "c++unit1feedback";
+  }
+   @RequestMapping("/financelessons")
+  String financelessons() {
+      return "financelessons";
+  }
+   @RequestMapping("/finance1unit1vid")
+  String finance1unit1vid() {
+      return "finance1unit1vid";
+  }
+   @RequestMapping("/finance1unit1nearpod")
+  String finance1unit1nearpod() {
+      return "finance1unit1nearpod";
+  }
+   @RequestMapping("/finance1unit1activity")
+  String finance1unit1activity() {
+      return "finance1unit1activity";
+  }
+   @RequestMapping("/finance1unit1assessment")
+  String finance1unit1assessment() {
+      return "finance1unit1assessment";
+  }
+   @RequestMapping("/finance1unit1activity")
+  String finance1unit1activity() {
+      return "finance1unit1activity";
+  }
+
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
