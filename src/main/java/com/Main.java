@@ -172,8 +172,8 @@ public class Main {
         return "java2unit2activity";
     }
 @RequestMapping("/java2unit2assessment")
-    String java1unit1nearpod() {
-        return "java1unit1nearpod";
+    String java2unit2nearpod() {
+        return "java2unit2nearpod";
     }
 @RequestMapping("/java2unit2feedback")
     String java2unit2feedback() {
@@ -192,8 +192,6 @@ public class Main {
         return "java2unit2vid";
     }
     
-    
-
    @RequestMapping("/mathlessons")
   String mathlessons() {
       return "mathlessons";
@@ -218,6 +216,31 @@ public class Main {
   String  math1unit1feedback() {
       return "math1unit1feedback";
   }
+
+@RequestMapping("/java3unit3activity")
+    String java3unit3activity() {
+        return "java3unit3activity";
+    }
+@RequestMapping("/java3unit3assessment")
+    String java3unit3assessment() {
+        return "java3unit3assessment";
+    }
+@RequestMapping("/java3unit3feedback")
+    String java3unit3feedback() {
+        return "java3unit3feedback";
+    }
+@RequestMapping("/java3unit3nearpod")
+    String java3unit3nearpod() {
+        return "java3unit3nearpod";
+    }
+@RequestMapping("/java3unit3reflection")
+    String java3unit3reflection() {
+        return "java3unit3reflection";
+    }
+@RequestMapping("/java3unit3vid")
+    String java3unit3vid() {
+        return "java3unit3vid";
+    }
 
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
