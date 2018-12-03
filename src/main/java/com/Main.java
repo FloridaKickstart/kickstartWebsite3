@@ -60,6 +60,34 @@ public class Main {
   String onlinecourses() {
       return "onlinecourses";
   }
+  @RequestMapping("/onlineresources")
+  String onlineresources() {
+      return "onlineresources";
+  }
+  @RequestMapping("/onlineresourcesbluejdownload")
+  String onlineresourcesbluejdownload() {
+      return "onlineresourcesbluejdownload";
+}
+@RequestMapping("/onlineresourcesatomdownload")
+  String onlineresourcesatomdownload() {
+      return "onlineresourcesatomdownload";
+}
+@RequestMapping("/onlineresourcesbracketsdownload")
+  String onlineresourcesbracketsdownload() {
+      return "onlineresourcesbracketsdownload";
+}
+@RequestMapping("/onlineresourcesintellliJdownload")
+    String onlineresourcesintellliJdownload() {
+        return "onlineresourcesintellliJdownload";
+}
+@RequestMapping("/onlineresourcespycharmdownload")
+    String onlineresourcespycharmdownload() {
+        return "onlineresourcespycharmdownload";
+    }
+@RequestMapping("/onlineresourcesvisualStudiodownload")
+    String onlineresourcesvisualStudiodownload() {
+        return "onlineresourcesvisualStudiodownload";
+}
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
