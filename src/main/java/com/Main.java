@@ -265,7 +265,28 @@ public class Main {
     String java3unit3vid() {
         return "java3unit3vid";
     }
-
+    
+    
+  @RequestMapping("/python2unit2vid")
+  String  python2unit2vid() {
+      return "python2unit2vid";
+  }
+    @RequestMapping("/python2unit2nearpod")
+  String  python2unit2nearpod() {
+      return "python2unit2nearpod";
+  }
+     @RequestMapping("/python2unit2activity")
+  String  python2unit2activity() {
+      return "python2unit2activity";
+  }
+     @RequestMapping("/python2unit2assessment")
+  String  python2unit2assessment() {
+      return "python2unit2assessment";
+  }
+    @RequestMapping("/python2unit2feedback")
+  String  python2unit2feedback() {
+      return "python2unit2feedback";
+  }
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
