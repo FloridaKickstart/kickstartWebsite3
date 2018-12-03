@@ -60,6 +60,212 @@ public class Main {
   String onlinecourses() {
       return "onlinecourses";
   }
+
+@RequestMapping("/onlineresources")
+  String onlineresources() {
+      return "onlineresources";
+  }
+@RequestMapping("/onlineresourcesbluejdownload")
+  String onlineresourcesbluejdownload() {
+      return "onlineresourcesbluejdownload";
+}
+@RequestMapping("/onlineresourcesatomdownload")
+  String onlineresourcesatomdownload() {
+      return "onlineresourcesatomdownload";
+}
+@RequestMapping("/onlineresourcesbracketsdownload")
+  String onlineresourcesbracketsdownload() {
+      return "onlineresourcesbracketsdownload";
+}
+@RequestMapping("/onlineresourcesintellliJdownload")
+    String onlineresourcesintellliJdownload() {
+        return "onlineresourcesintellliJdownload";
+}
+@RequestMapping("/onlineresourcespycharmdownload")
+    String onlineresourcespycharmdownload() {
+        return "onlineresourcespycharmdownload";
+    }
+@RequestMapping("/onlineresourcesvisualStudiodownload")
+    String onlineresourcesvisualStudiodownload() {
+        return "onlineresourcesvisualStudiodownload";
+}
+
+  @RequestMapping("/c++unit1vid")
+  String c++unit1vid() {
+      return "c++unit1vid";
+  }
+  @RequestMapping("/c++lessons")
+  String c++lessons() {
+      return "c++lessons";
+  }
+  @RequestMapping("/c++unit1nearpod")
+  String c++unit1nearpod() {
+      return "c++unit1nearpod";
+  }
+    @RequestMapping("/c++unit1activity")
+  String c++unit1activity() {
+      return "c++unit1activity";
+  }
+   @RequestMapping("/c++unit1assessment")
+  String c++unit1activity() {
+      return "c++unit1assessment";
+  }
+  @RequestMapping("/c++unit1feedback")
+  String c++unit1feedback() {
+      return "c++unit1feedback";
+  }
+   @RequestMapping("/financelessons")
+  String financelessons() {
+      return "financelessons";
+  }
+   @RequestMapping("/finance1unit1vid")
+  String finance1unit1vid() {
+      return "finance1unit1vid";
+  }
+   @RequestMapping("/finance1unit1nearpod")
+  String finance1unit1nearpod() {
+      return "finance1unit1nearpod";
+  }
+   @RequestMapping("/finance1unit1activity")
+  String finance1unit1activity() {
+      return "finance1unit1activity";
+  }
+   @RequestMapping("/finance1unit1assessment")
+  String finance1unit1assessment() {
+      return "finance1unit1assessment";
+  }
+   @RequestMapping("/finance1unit1activity")
+  String finance1unit1activity() {
+      return "finance1unit1activity";
+  }
+@RequestMapping("/javalessons")
+    String javalessons() {
+        return "javalessons";
+    }
+@RequestMapping("/java1unit1activity")
+    String java1unit1activity() {
+        return "java1unit1activity";
+    }
+@RequestMapping("/java1unit1nearpod")
+    String java1unit1nearpod() {
+        return "java1unit1nearpod";
+    }
+@RequestMapping("/java1unit1assessment")
+    String java1unit1assessment() {
+        return "java1unit1assessment";
+    }
+@RequestMapping("/java1unit1feedback")
+    String java1unit1feedback() {
+        return "java1unit1feedback";
+    }
+@RequestMapping("/java1unit1reflection")
+    String java1unit1reflection() {
+        return "java1unit1reflection";
+    }
+@RequestMapping("/java1unit1vid")
+    String java1unit1vid() {
+        return "java1unit1vid";
+        
+    }
+@RequestMapping("/java2unit2activity")
+    String java2unit2activity() {
+        return "java2unit2activity";
+    }
+@RequestMapping("/java2unit2assessment")
+    String java2unit2nearpod() {
+        return "java2unit2nearpod";
+    }
+@RequestMapping("/java2unit2feedback")
+    String java2unit2feedback() {
+        return "java2unit2feedback";
+    }
+@RequestMapping("/java2unit2nearpod")
+    String java2unit2nearpod() {
+        return "java2unit2nearpod";
+    }
+@RequestMapping("/java2unit2reflection")
+    String java2unit2reflection() {
+        return "java2unit2reflection";
+    }
+@RequestMapping("/java2unit2vid")
+    String java2unit2vid() {
+        return "java2unit2vid";
+    }
+    
+   @RequestMapping("/mathlessons")
+  String mathlessons() {
+      return "mathlessons";
+  }
+    @RequestMapping("/math1unit1vid")
+  String math1unit1vid() {
+      return "math1unit1vid";
+  }
+    @RequestMapping("/math1unit1nearpod")
+  String math1unit1nearpod() {
+      return "math1unit1nearpod";
+  }
+    @RequestMapping("/math1unit1activity")
+  String math1unit1activity() {
+      return "math1unit1activity";
+  }
+     @RequestMapping("/math1unit1assessment")
+  String  math1unit1assessment() {
+      return "math1unit1assessment";
+  }
+     @RequestMapping("/math1unit1feedback")
+  String  math1unit1feedback() {
+      return "math1unit1feedback";
+  }
+    @RequestMapping("/pythonlessons")
+  String  pythonlessons() {
+      return "pythonlessons";
+  }
+     @RequestMapping("/python1unit1vid")
+  String  python1unit1vid() {
+      return "python1unit1vid";
+  }
+    @RequestMapping("/python1unit1nearpod")
+  String  python1unit1nearpod() {
+      return "python1unit1nearpod";
+  }
+     @RequestMapping("/python1unit1activity")
+  String  python1unit1activity() {
+      return "python1unit1activity";
+  }
+     @RequestMapping("/python1unit1assessment")
+  String  python1unit1assessment() {
+      return "python1unit1assessment";
+  }
+    @RequestMapping("/python1unit1feedback")
+  String  python1unit1feedback() {
+      return "python1unit1feedback";
+  }
+
+@RequestMapping("/java3unit3activity")
+    String java3unit3activity() {
+        return "java3unit3activity";
+    }
+@RequestMapping("/java3unit3assessment")
+    String java3unit3assessment() {
+        return "java3unit3assessment";
+    }
+@RequestMapping("/java3unit3feedback")
+    String java3unit3feedback() {
+        return "java3unit3feedback";
+    }
+@RequestMapping("/java3unit3nearpod")
+    String java3unit3nearpod() {
+        return "java3unit3nearpod";
+    }
+@RequestMapping("/java3unit3reflection")
+    String java3unit3reflection() {
+        return "java3unit3reflection";
+    }
+@RequestMapping("/java3unit3vid")
+    String java3unit3vid() {
+        return "java3unit3vid";
+    }
+
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
