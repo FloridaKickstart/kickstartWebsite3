@@ -218,6 +218,30 @@ public class Main {
   String  math1unit1feedback() {
       return "math1unit1feedback";
   }
+    @RequestMapping("/pythonlessons")
+  String  pythonlessons() {
+      return "pythonlessons";
+  }
+     @RequestMapping("/python1unit1vid")
+  String  python1unit1vid() {
+      return "python1unit1vid";
+  }
+    @RequestMapping("/python1unit1nearpod")
+  String  python1unit1nearpod() {
+      return "python1unit1nearpod";
+  }
+     @RequestMapping("/python1unit1activity")
+  String  python1unit1activity() {
+      return "python1unit1activity";
+  }
+     @RequestMapping("/python1unit1assessment")
+  String  python1unit1assessment() {
+      return "python1unit1assessment";
+  }
+    @RequestMapping("/python1unit1feedback")
+  String  python1unit1feedback() {
+      return "python1unit1feedback";
+  }
 
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
