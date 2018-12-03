@@ -89,8 +89,9 @@ public class Main {
     String onlineresourcesvisualStudiodownload() {
         return "onlineresourcesvisualStudiodownload";
 }
+//####COMMENTED OUT DUE TO '++' ERROR, FIX ASAP, DO NOT IGNORE INCOMING CHANGE####
 
-  @RequestMapping("/c++unit1vid")
+  /* @RequestMapping("/c++unit1vid")
   String c++unit1vid() {
       return "c++unit1vid";
   }
@@ -113,7 +114,7 @@ public class Main {
   @RequestMapping("/c++unit1feedback")
   String c++unit1feedback() {
       return "c++unit1feedback";
-  }
+  } */
    @RequestMapping("/financelessons")
   String financelessons() {
       return "financelessons";
@@ -125,10 +126,6 @@ public class Main {
    @RequestMapping("/finance1unit1nearpod")
   String finance1unit1nearpod() {
       return "finance1unit1nearpod";
-  }
-   @RequestMapping("/finance1unit1activity")
-  String finance1unit1activity() {
-      return "finance1unit1activity";
   }
    @RequestMapping("/finance1unit1assessment")
   String finance1unit1assessment() {
@@ -178,10 +175,6 @@ public class Main {
 @RequestMapping("/java2unit2feedback")
     String java2unit2feedback() {
         return "java2unit2feedback";
-    }
-@RequestMapping("/java2unit2nearpod")
-    String java2unit2nearpod() {
-        return "java2unit2nearpod";
     }
 @RequestMapping("/java2unit2reflection")
     String java2unit2reflection() {

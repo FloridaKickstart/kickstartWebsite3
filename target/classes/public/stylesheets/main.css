@@ -160,7 +160,7 @@ header{
     background-position: center; */
 }
 .online-lessons{
-    background-image: linear-gradient(#000,#2980b9), url("background.jpg"),linear-gradient(#c40808,#000) ;
+    background-image: linear-gradient(#000,#2980b9), url("background.jpg"),linear-gradient(#c40808,#000);
     height: 100vh;
     background-size: cover; 
     background-position: center;
@@ -171,11 +171,11 @@ header{
     width: 1250px;
     margin-left: 10vh;
     margin-top: 25vh;
+    margin-bottom: 50vh;
     color: white;
-        
     }
 .logo {
-    height: 90px;
+    height: 8vh;
     width: auto;
     float: left;
     margin-top: 20px;
@@ -482,8 +482,7 @@ button-members:hover, a:hover {
 }
 .parallax__layer--back {
     transform: translateZ(-5px) scale(8);
-    background-image: url("background.jpg");
-
+    background-image: linear-gradient(#000,#ffffff00), url("background.jpg"), linear-gradient(#ffffff00,#000);
     background-size: cover;
     background-position: center;
 }
