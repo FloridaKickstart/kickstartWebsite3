@@ -60,6 +60,30 @@ public class Main {
   String onlinecourses() {
       return "onlinecourses";
   }
+  @RequestMapping("/c++unit1vid")
+  String c++unit1vid() {
+      return "c++unit1vid";
+  }
+  @RequestMapping("/c++lessons")
+  String c++lessons() {
+      return "c++lessons";
+  }
+  @RequestMapping("/c++unit1nearpod")
+  String c++unit1nearpod() {
+      return "c++unit1nearpod";
+  }
+    @RequestMapping("/c++unit1activity")
+  String c++unit1activity() {
+      return "c++unit1activity";
+  }
+   @RequestMapping("/c++unit1assessment")
+  String c++unit1activity() {
+      return "c++unit1assessment";
+  }
+  @RequestMapping("/c++unit1feedback")
+  String c++unit1feedback() {
+      return "c++unit1feedback";
+  }
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
