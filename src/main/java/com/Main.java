@@ -91,15 +91,10 @@ public class Main {
 }
 //####COMMENTED OUT DUE TO '++' ERROR, FIX ASAP, DO NOT IGNORE INCOMING CHANGE####
 
-<<<<<<< HEAD
+
   @RequestMapping("/cppunit1vid")
   String cppunit1vid() {
       return "cppunit1vid";
-=======
-  /* @RequestMapping("/c++unit1vid")
-  String c++unit1vid() {
-      return "c++unit1vid";
->>>>>>> 81a1ac02f5d975df0ec127273c390b39d363bc13
   }
   @RequestMapping("/cpplessons")
   String cpplessons() {
@@ -117,17 +112,11 @@ public class Main {
   String cppunit1activity() {
       return "cppunit1assessment";
   }
-<<<<<<< HEAD
   @RequestMapping("/cppunit1feedback")
   String cppunit1feedback() {
       return "cppunit1feedback";
   }
-=======
-  @RequestMapping("/c++unit1feedback")
-  String c++unit1feedback() {
-      return "c++unit1feedback";
-  } */
->>>>>>> 81a1ac02f5d975df0ec127273c390b39d363bc13
+
    @RequestMapping("/financelessons")
   String financelessons() {
       return "financelessons";
