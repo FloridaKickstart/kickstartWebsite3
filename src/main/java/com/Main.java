@@ -89,30 +89,31 @@ public class Main {
     String onlineresourcesvisualStudiodownload() {
         return "onlineresourcesvisualStudiodownload";
 }
+//####COMMENTED OUT DUE TO '++' ERROR, FIX ASAP, DO NOT IGNORE INCOMING CHANGE####
 
-  @RequestMapping("/c++unit1vid")
-  String c++unit1vid() {
-      return "c++unit1vid";
+  @RequestMapping("/cppunit1vid")
+  String cppunit1vid() {
+      return "cppunit1vid";
   }
-  @RequestMapping("/c++lessons")
-  String c++lessons() {
-      return "c++lessons";
+  @RequestMapping("/cpplessons")
+  String cpplessons() {
+      return "cpplessons";
   }
-  @RequestMapping("/c++unit1nearpod")
-  String c++unit1nearpod() {
-      return "c++unit1nearpod";
+  @RequestMapping("/cppunit1nearpod")
+  String cppunit1nearpod() {
+      return "cppunit1nearpod";
   }
-    @RequestMapping("/c++unit1activity")
-  String c++unit1activity() {
-      return "c++unit1activity";
+    @RequestMapping("/cppunit1activity")
+  String cppunit1activity() {
+      return "cppunit1activity";
   }
-   @RequestMapping("/c++unit1assessment")
-  String c++unit1activity() {
-      return "c++unit1assessment";
+   @RequestMapping("/cppunit1assessment")
+  String cppunit1activity() {
+      return "cppunit1assessment";
   }
-  @RequestMapping("/c++unit1feedback")
-  String c++unit1feedback() {
-      return "c++unit1feedback";
+  @RequestMapping("/cppunit1feedback")
+  String cppunit1feedback() {
+      return "cppunit1feedback";
   }
    @RequestMapping("/financelessons")
   String financelessons() {
@@ -125,10 +126,6 @@ public class Main {
    @RequestMapping("/finance1unit1nearpod")
   String finance1unit1nearpod() {
       return "finance1unit1nearpod";
-  }
-   @RequestMapping("/finance1unit1activity")
-  String finance1unit1activity() {
-      return "finance1unit1activity";
   }
    @RequestMapping("/finance1unit1assessment")
   String finance1unit1assessment() {
@@ -179,10 +176,6 @@ public class Main {
     String java2unit2feedback() {
         return "java2unit2feedback";
     }
-@RequestMapping("/java2unit2nearpod")
-    String java2unit2nearpod() {
-        return "java2unit2nearpod";
-    }
 @RequestMapping("/java2unit2reflection")
     String java2unit2reflection() {
         return "java2unit2reflection";
@@ -215,6 +208,30 @@ public class Main {
      @RequestMapping("/math1unit1feedback")
   String  math1unit1feedback() {
       return "math1unit1feedback";
+  }
+    @RequestMapping("/pythonlessons")
+  String  pythonlessons() {
+      return "pythonlessons";
+  }
+     @RequestMapping("/python1unit1vid")
+  String  python1unit1vid() {
+      return "python1unit1vid";
+  }
+    @RequestMapping("/python1unit1nearpod")
+  String  python1unit1nearpod() {
+      return "python1unit1nearpod";
+  }
+     @RequestMapping("/python1unit1activity")
+  String  python1unit1activity() {
+      return "python1unit1activity";
+  }
+     @RequestMapping("/python1unit1assessment")
+  String  python1unit1assessment() {
+      return "python1unit1assessment";
+  }
+    @RequestMapping("/python1unit1feedback")
+  String  python1unit1feedback() {
+      return "python1unit1feedback";
   }
 
 @RequestMapping("/java3unit3activity")
