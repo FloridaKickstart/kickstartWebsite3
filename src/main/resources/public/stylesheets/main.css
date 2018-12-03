@@ -169,9 +169,8 @@ header{
 
 .slogan-text {
     width: 1250px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    margin-left: 10vh;
+    margin-top: 25vh;
     color: white;
         
     }
