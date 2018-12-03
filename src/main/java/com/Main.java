@@ -61,11 +61,11 @@ public class Main {
       return "onlinecourses";
   }
 
-  @RequestMapping("/onlineresources")
+@RequestMapping("/onlineresources")
   String onlineresources() {
       return "onlineresources";
   }
-  @RequestMapping("/onlineresourcesbluejdownload")
+@RequestMapping("/onlineresourcesbluejdownload")
   String onlineresourcesbluejdownload() {
       return "onlineresourcesbluejdownload";
 }
@@ -138,7 +138,62 @@ public class Main {
   String finance1unit1activity() {
       return "finance1unit1activity";
   }
-
+@RequestMapping("/javalessons")
+    String javalessons() {
+        return "javalessons";
+    }
+@RequestMapping("/java1unit1activity")
+    String java1unit1activity() {
+        return "java1unit1activity";
+    }
+@RequestMapping("/java1unit1nearpod")
+    String java1unit1nearpod() {
+        return "java1unit1nearpod";
+    }
+@RequestMapping("/java1unit1assessment")
+    String java1unit1assessment() {
+        return "java1unit1assessment";
+    }
+@RequestMapping("/java1unit1feedback")
+    String java1unit1feedback() {
+        return "java1unit1feedback";
+    }
+@RequestMapping("/java1unit1reflection")
+    String java1unit1reflection() {
+        return "java1unit1reflection";
+    }
+@RequestMapping("/java1unit1vid")
+    String java1unit1vid() {
+        return "java1unit1vid";
+        
+    }
+@RequestMapping("/java2unit2activity")
+    String java2unit2activity() {
+        return "java2unit2activity";
+    }
+@RequestMapping("/java2unit2assessment")
+    String java1unit1nearpod() {
+        return "java1unit1nearpod";
+    }
+@RequestMapping("/java2unit2feedback")
+    String java2unit2feedback() {
+        return "java2unit2feedback";
+    }
+@RequestMapping("/java2unit2nearpod")
+    String java2unit2nearpod() {
+        return "java2unit2nearpod";
+    }
+@RequestMapping("/java2unit2reflection")
+    String java2unit2reflection() {
+        return "java2unit2reflection";
+    }
+@RequestMapping("/java2unit2vid")
+    String java2unit2vid() {
+        return "java2unit2vid";
+    }
+    
+    
+    
   @RequestMapping("/db")
   String db(Map<String, Object> model) {
     try (Connection connection = dataSource.getConnection()) {
