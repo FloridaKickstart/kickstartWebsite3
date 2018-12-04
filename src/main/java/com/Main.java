@@ -109,7 +109,7 @@ public class Main {
       return "cppunit1activity";
   }
    @RequestMapping("/cppunit1assessment")
-  String cppunit1activity() {
+  String cppunit1assessment() {
       return "cppunit1assessment";
   }
   @RequestMapping("/cppunit1feedback")
